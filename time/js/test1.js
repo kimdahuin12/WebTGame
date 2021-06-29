@@ -24,16 +24,16 @@ stopBtn.addEventListener('click', function(){
     sel = confirm("다시하시겠습니까?");
 
     if(sel==true){
-        var link = './playing.html';
-    window.location.href = link;       //웹개발할때 숨쉬듯이 작성할 코드
-    window.location.replace(link);     // 이전 페이지로 못돌아감
-    window.open(link);  
+        let link = './playing.html';
+        //window.location.href = link; //..
+        window.location.replace(link); // 이전 페이지로 못돌아감
+        window.open(link);
     }
     else if(sel==false){
         var link = './index.html';
-    window.location.href = link;       //웹개발할때 숨쉬듯이 작성할 코드
-    window.location.replace(link);     // 이전 페이지로 못돌아감
-    window.open(link);  
+        //window.location.href = link;     
+        window.location.replace(link);     // 이전 페이지로 못돌아감
+        window.open(link);  
     }
 })
 

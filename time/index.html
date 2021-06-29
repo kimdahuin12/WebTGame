@@ -2,10 +2,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
+        <title>Go Go game</title>
         <link rel="stylesheet" href="./css/button.css">
+        <link rel="stylesheet" href="./css/basic.css">
     </head>
 <body>
-    <input type="button" value="startGame" 
+    <nav id="topMenu">
+        <div class="menuLogo">
+            <div class="imgT"></div>
+        </div>
+        <div class="menuBgr">
+            <div class="menuCenter">
+                <li><a class="menuCt" href="">HOME</a></li>
+                <li><a class="menuCt" href="">GAME</a></li>
+                <li><a class="menuCt" href="">LEARN</a></li>
+            </div>
+        </div>
+    </nav>
+    <hr style="margin: auto;">
+
+    <input type="button" id="startBtn" value="startGame" 
         onClick = "self.location='./playing.html';"/>
     
 </body>

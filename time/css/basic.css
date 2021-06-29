@@ -1,0 +1,48 @@
+#topMenu{
+    height: 150px;
+    margin: auto;
+    background-color: seashell;
+}
+
+#topMenu li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#topMenu .menuCt{
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    width: 300px;
+    margin: auto;
+}
+
+#topMenu .menuBgr{
+    text-align: center;
+    background-color: black;
+    display: block;
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+}
+
+#topMenu .menuCenter{
+    display: inline-block;
+}
+
+#topMenu .menuLogo{
+    text-align: center;
+    height: 110px;
+}
+
+.imgT{
+    background-color: snow;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+}
