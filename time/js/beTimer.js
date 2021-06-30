@@ -1,5 +1,5 @@
 let stopBtn = document.getElementById('stopBtn')
-let startBtn= document.getElementById('startBtn')
+let startBtn= document.getElementById('startBtn1')
 let startTime;
 let endTime;
 let saveTime;
@@ -24,14 +24,14 @@ stopBtn.addEventListener('click', function(){
     sel = confirm("다시하시겠습니까?");
 
     if(sel==true){
-        let link = './playing.html';
-        //window.location.href = link; //..
+        let link = './beTimer.html';
+        window.location.href = link; //..
         window.location.replace(link); // 이전 페이지로 못돌아감
         window.open(link);
     }
     else if(sel==false){
         var link = './index.html';
-        //window.location.href = link;     
+        window.location.href = link;     
         window.location.replace(link);     // 이전 페이지로 못돌아감
         window.open(link);  
     }
