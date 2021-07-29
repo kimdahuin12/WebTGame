@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+	margin-left:40px;
+	margin-right:40px
+}
+
+#topMenu{
+    height: 170px;
+    margin: auto;
+}
+
+#topMenu li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#topMenu .menuCt{
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    width: 200px;
+    margin: auto;
+}
+
+#topMenu .menuBgr{
+    text-align: center;
+    background-color: black;
+    display: block;
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+}
+
+#topMenu .menuCenter{
+    display: inline-block;
+}
+
+.menuLogo{
+    text-align: center;
+
+}
+
+
+#gameContent{
+   text-align: center;
+    margin: 10px 50px 10px 50px;
+
+}
+
+.beTimerContent{
+	text-align: center;
+}
+
+.footer{
+	
+}
+
+/* #gameContent .gameStartBtns{
+    display: inline-block;
+    background-color: steelblue;
+} */
