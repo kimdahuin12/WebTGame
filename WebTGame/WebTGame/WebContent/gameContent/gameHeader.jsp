@@ -7,7 +7,9 @@
 	             <li><a class="menuCt" href="../welcom.jsp">HOME</a></li>
 	             <li><a class="menuCt" href="../gameMenu.jsp">GAME</a></li>
 	             <li><a class="menuCt" href="">LEARN</a></li>
+	             <li><a class="menuCt" href="">COMMUNITY</a></li>
 	             <li><a class="menuCt" href="">MIX</a></li>
 	    </div>
 	</div>
 </nav>
+<hr class="basic_hr">
