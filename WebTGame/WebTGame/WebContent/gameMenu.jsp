@@ -14,9 +14,9 @@
 
 <div id="gameContent">
        <input type="button" class="startBtn" id="startBtn1" value="Stop!Game" 
-           onClick = "self.location='./gameContent/beTimer.jsp';"/>
+           onClick = "self.location='./game_beTimer.jsp';"/>
         <input type="button" class="startBtn" id="startBtn2" value="startGame2" 
-           onClick = "self.location='./gameContent/palindromStg.jsp';"/>
+           onClick = "self.location='./game_palindromStg.jsp';"/>
     </div>
     
 <%@ include file="footer.jsp" %>

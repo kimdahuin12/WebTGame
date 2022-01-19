@@ -11,15 +11,15 @@
 		</div>
 	</nav>
 	<div class="menuLogo">
-        <a href="welcom.jsp"><img src="./resources/image/logo.png"></a>
+        <a href="welcome.jsp"><img src="resources/image/logo.png"></a>
     </div>
 	<nav id="topMenu">
 	    <div class="menuBgr">
 	         <div class="menuCenter">
-	             <li><a class="menuCt" href="welcom.jsp">HOME</a></li>
+	             <li><a class="menuCt" href="welcome.jsp">HOME</a></li>
 	             <li><a class="menuCt" href="gameMenu.jsp">GAME</a></li>
 	             <li><a class="menuCt" href="">LEARN</a></li>
-	             <li><a class="menuCt" href="">COMMUNITY</a></li>
+	             <li><a class="menuCt" href="Community_statistics.jsp">COMMUNITY</a></li>
 	             <li><a class="menuCt" href="">MIX</a></li>
 	         </div>
 	     </div>

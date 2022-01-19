@@ -4,8 +4,33 @@ body{
 	margin: 0;
 }
 
+/*방문자 통계(?)*/
+.visit-statistics{
+	width: 150px;
+    background-color: yellow;
+    transition-property: width;
+    transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.today-visit:hover{
+	width : 160px;
+}
+.yesterday-visit:hover{
+	width : 260px;
+}
+.total-visit:hover{
+	width : 260px;
+}
+/*방문자END*/
+
 .basic_box{
 	margin: 10px 40px;
+}
+
+.square_box1{
+	padding:10px;
+	border: 2px dashed black;
 }
 
 .welcom_fixed_bg{
